@@ -1,4 +1,12 @@
 variable "region" {}
 variable "availability_zone" {}
-variable "cidr_blocks" {}
-
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block" {}
+variable "env_prefix" {}
+variable "local_ip" {}
+variable "ami_name" {}
+variable "owners" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "public_key" {}
+variable "script_name" {}
